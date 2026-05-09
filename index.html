@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gauteng Installers Tech | DSTV Installation Gauteng</title>
+
+<meta name="description" content="Professional DSTV and OpenView installation services across Gauteng including Johannesburg, Pretoria, Midrand, Sandton and surrounding areas.">
+
+<meta name="keywords" content="DSTV Installation Gauteng, OpenView Installation Gauteng, TV Wall Mounting Gauteng, DSTV Repairs Johannesburg, Satellite Installation Pretoria">
+
+<meta name="author" content="Gauteng Installers Tech">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Arial,sans-serif;
+background:#f5f5f5;
+color:#333;
+line-height:1.6;
+}
+
+/* HEADER */
+
+header{
+background:#0d47a1;
+color:white;
+padding:60px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:42px;
+margin-bottom:15px;
+}
+
+header p{
+font-size:20px;
+}
+
+/* HERO SECTION */
+
+.hero{
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url('https://images.unsplash.com/photo-1593784991095-a205069470b6?q=80&w=1200');
+background-size:cover;
+background-position:center;
+padding:100px 20px;
+text-align:center;
+color:white;
+}
+
+.hero h2{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:900px;
+margin:auto;
+font-size:20px;
+margin-bottom:30px;
+}
+
+/* BUTTONS */
+
+.buttons{
+margin-top:30px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 25px;
+margin:10px;
+text-decoration:none;
+color:white;
+border-radius:8px;
+font-size:18px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.btn:hover{
+opacity:0.9;
+transform:scale(1.05);
+}
+
+.whatsapp{
+background:#25D366;
+}
+
+.call{
+background:#e53935;
+}
+
+.email{
+background:#ff9800;
+}
+
+/* SERVICES */
+
+.services{
+padding:70px 20px;
+}
+
+.services h2{
+text-align:center;
+font-size:38px;
+color:#0d47a1;
+margin-bottom:40px;
+}
+
+.services-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+max-width:1200px;
+margin:auto;
+}
+
+.service-box{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.service-box:hover{
+transform:translateY(-5px);
+}
+
+.service-box h3{
+color:#0d47a1;
+margin-bottom:15px;
+font-size:24px;
+}
+
+/* LOCATIONS */
+
+.locations{
+padding:70px 20px;
+background:white;
+}
+
+.locations h2{
+text-align:center;
+font-size:38px;
+margin-bottom:40px;
+color:#0d47a1;
+}
+
+.location-links{
+text-align:center;
+max-width:1200px;
+margin:auto;
+}
+
+.location-links a{
+display:inline-block;
+background:#0d47a1;
+color:white;
+padding:14px 22px;
+margin:10px;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.location-links a:hover{
+background:#082567;
+transform:scale(1.05);
+}
+
+/* CONTACT FORM */
+
+.contact-form{
+padding:70px 20px;
+}
+
+.contact-form h2{
+text-align:center;
+font-size:38px;
+margin-bottom:40px;
+color:#0d47a1;
+}
+
+form{
+max-width:750px;
+margin:auto;
+background:white;
+padding:35px;
+border-radius:12px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+input, textarea{
+width:100%;
+padding:15px;
+margin-bottom:20px;
+border:1px solid #ccc;
+border-radius:6px;
+font-size:16px;
+}
+
+button{
+background:#0d47a1;
+color:white;
+padding:15px 25px;
+border:none;
+border-radius:8px;
+font-size:18px;
+cursor:pointer;
+width:100%;
+transition:0.3s;
+}
+
+button:hover{
+background:#082567;
+}
+
+/* FOOTER */
+
+footer{
+background:#082567;
+color:white;
+text-align:center;
+padding:30px 20px;
+margin-top:40px;
+}
+
+footer p{
+margin:10px 0;
+font-size:18px;
+}
+
+/* FLOATING BUTTONS */
+
+.floating-buttons{
+position:fixed;
+bottom:20px;
+right:20px;
+z-index:999;
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+
+.floating-buttons a{
+width:60px;
+height:60px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+text-decoration:none;
+font-size:28px;
+color:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+
+.float-whatsapp{
+background:#25D366;
+}
+
+.float-call{
+background:#e53935;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+header h1{
+font-size:30px;
+}
+
+.hero h2{
+font-size:30px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.services h2,
+.locations h2,
+.contact-form h2{
+font-size:30px;
+}
+
+.btn{
+display:block;
+margin:15px auto;
+width:90%;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>
+📡 Gauteng Installers Tech
+</h1>
+
+<p>
+Professional DSTV & OpenView Installers Across Gauteng
+</p>
+
+</header>
+
+<section class="hero">
+
+<h2>
+📺 Same Day DSTV Installation Services
+</h2>
+
+<p>
+We provide professional DSTV installation,
+OpenView installation,
+TV wall mounting,
+decoder setup,
+signal repairs,
+extra view setup,
+and satellite dish alignment services across Gauteng.
+</p>
+
+<div class="buttons">
+
+<a class="btn whatsapp" href="https://wa.me/27603160606">
+💬 WhatsApp Us
+</a>
+
+<a class="btn call" href="tel:+27603160606">
+📞 Call Now
+</a>
+
+<a class="btn email" href="mailto:gautenginstallerstech@gmail.com">
+✉️ Email Us
+</a>
+
+</div>
+
+</section>
+
+<section class="services">
+
+<h2>
+🛠️ Our Services
+</h2>
+
+<div class="services-grid">
+
+<div class="service-box">
+<h3>📡 DSTV Installation</h3>
+<p>
+Professional DSTV installations for homes and businesses across Gauteng.
+</p>
+</div>
+
+<div class="service-box">
+<h3>📺 OpenView Installation</h3>
+<p>
+Affordable OpenView HD installations with quality signal setup.
+</p>
+</div>
+
+<div class="service-box">
+<h3>🧱 TV Wall Mounting</h3>
+<p>
+Secure and neat TV wall mounting solutions for all television sizes.
+</p>
+</div>
+
+<div class="service-box">
+<h3>📶 Signal Repairs</h3>
+<p>
+Fast repairs for weak signal and no signal problems.
+</p>
+</div>
+
+<div class="service-box">
+<h3>🔧 Decoder Setup</h3>
+<p>
+Extra view setup, decoder configuration and channel setup services.
+</p>
+</div>
+
+<div class="service-box">
+<h3>🏠 Satellite Dish Alignment</h3>
+<p>
+Professional satellite dish alignment for strong signal reception.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="locations">
+
+<h2>
+📍 Areas We Serve
+</h2>
+
+<div class="location-links">
+
+<a href="#">Johannesburg</a>
+<a href="#">Pretoria</a>
+<a href="#">Midrand</a>
+<a href="#">Sandton</a>
+<a href="#">Randburg</a>
+<a href="#">Centurion</a>
+<a href="#">Roodepoort</a>
+<a href="#">Kempton Park</a>
+<a href="#">Benoni</a>
+<a href="#">Boksburg</a>
+<a href="#">Alberton</a>
+<a href="#">Soweto</a>
+
+</div>
+
+</section>
+
+<section class="contact-form">
+
+<h2>
+📩 Request A Free Quote
+</h2>
+
+<form>
+
+<input type="text" placeholder="Your Full Name" required>
+
+<input type="tel" placeholder="Your Phone Number" required>
+
+<input type="email" placeholder="Your Email Address" required>
+
+<textarea rows="6" placeholder="Describe The Service You Need"></textarea>
+
+<button type="submit">
+Send Request
+</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>
+📞 Call: 060 316 0606
+</p>
+
+<p>
+✉️ Email: gautenginstallerstech@gmail.com
+</p>
+
+<p>
+📡 Gauteng Installers Tech | DSTV Installation Gauteng
+</p>
+
+<p>
+© 2026 All Rights Reserved
+</p>
+
+</footer>
+
+<!-- FLOATING CONTACT BUTTONS -->
+
+<div class="floating-buttons">
+
+<a class="float-whatsapp"
+href="https://wa.me/27603160606">
+💬
+</a>
+
+<a class="float-call"
+href="tel:+27603160606">
+📞
+</a>
+
+</div>
+
+</body>
+</html> i have these html um using it on github i recently paste them guide me with next step
