@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DSTV Installation Sandton | Same Day Installer Gauteng</title>
+
+<meta name="description" content="Professional DSTV Installation in Sandton. Same day service for homes, apartments and businesses. OpenView setup, TV mounting and signal repair in Sandton.">
+
+<style>
+body{
+font-family:Arial, sans-serif;
+margin:0;
+padding:0;
+background:#f5f5f5;
+}
+
+header{
+background:#0d47a1;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+section{
+padding:70px 20px;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+}
+
+h2{
+color:#0d47a1;
+margin-bottom:20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.btn{
+display:inline-block;
+padding:15px 25px;
+margin:10px;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+color:white;
+background:#25D366;
+}
+
+.call{
+background:#e53935;
+}
+
+footer{
+background:#082567;
+color:white;
+text-align:center;
+padding:30px 20px;
+margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>DSTV Installation Sandton</h1>
+<p>Same Day Satellite & OpenView Installation Services in Sandton</p>
+</header>
+
+<section>
+<div class="container">
+
+<h2>Professional Sandton DSTV Installers</h2>
+
+<p>
+We provide fast and reliable DSTV installation in Sandton for apartments, houses, offices, and commercial buildings. Our technicians also handle OpenView HD setup, decoder configuration, dish alignment, and TV wall mounting.
+</p>
+
+<a class="btn" href="https://wa.me/27603160606?text=Hi%20I%20need%20DSTV%20installation%20in%20Sandton">WhatsApp Us</a>
+
+<a class="btn call" href="tel:+27603160606">Call Now</a>
+
+<div class="grid">
+
+<div class="card">
+<h3>DSTV Installation</h3>
+<p>Expert DSTV dish installation and full setup in Sandton.</p>
+</div>
+
+<div class="card">
+<h3>OpenView HD Setup</h3>
+<p>Affordable OpenView installation and signal configuration.</p>
+</div>
+
+<div class="card">
+<h3>TV Wall Mounting</h3>
+<p>Professional TV installation and wall mounting services.</p>
+</div>
+
+<div class="card">
+<h3>Signal Repairs</h3>
+<p>We fix weak signal, no signal and decoder errors quickly.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 Gauteng Installers Tech | DSTV Installation Sandton</p>
+</footer>
+
+</body>
+</html>
